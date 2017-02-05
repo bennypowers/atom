@@ -2852,8 +2852,9 @@ fileIcons:
 
 	"Polymer.json":
 		icon: "polymer"
-		match: "polymer.json"
-		color: "purple"
+		priority: 2
+		match: "/^polymer\.json$/i"
+		color: "medium-purple"
 
 	Pony:
 		icon: "pony"
